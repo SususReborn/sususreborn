@@ -106,13 +106,13 @@ footer a {
 .galeria {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 18px;
   justify-content: center;
   margin-bottom: 30px;
 }
 
 .galeria img {
-  width: 23%;
+  width: 35%;
   height: auto;
   border-radius: 12px;
   object-fit: cover;
@@ -121,7 +121,7 @@ footer a {
 }
 
 .galeria img:hover {
-  transform: scale(1.05);
+  transform: scale(2.05);
 }
 
 .descripcion {
