@@ -139,6 +139,12 @@ section h17 {
   margin-top: 30px;
   text-align: center;
 }
+section h18 {
+  color: #c48e8e;
+  font-size: 3.5rem;
+  margin-top: 30px;
+  text-align: center;
+}
 p {
   font-size: 1.6rem;
   line-height: 2.2;
@@ -180,6 +186,13 @@ footer a {
   margin-bottom: 60px;
 }
 #vinilo .producto {
+  background: #fff9f7;
+  border: 1px solid #f0dede;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 60px;
+}
+#kitblanco .producto {
   background: #fff9f7;
   border: 1px solid #f0dede;
   padding: 30px;
