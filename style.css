@@ -44,18 +44,18 @@ section {
 
 section h2 {
   color: #b36e6e;
-  font-size: 4.5rem; /* MÁS GRANDE que los títulos de producto */
+  font-size: 5.5rem; /* MÁS GRANDE que los títulos de producto */
   margin-bottom: 30px;
 }
 
 section h3 {
   color: #c48e8e;
-  font-size: 3rem; /* MENOS que h2 */
+  font-size: 4rem; /* MENOS que h2 */
   margin-top: 30px;
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 2.6rem;
   line-height: 2.2;
 }
 
@@ -88,14 +88,14 @@ footer a {
 
 #silicona .producto {
   background: #fff9f7;
-  border: 1px solid #f0dede;
-  padding: 30px;
+  border: 4px solid #f0dede;
+  padding: 60px;
   border-radius: 12px;
   margin-bottom: 60px;
 }
 
 .titulo-grande {
-  font-size: 3rem;
+  font-size: 4rem;
   color: #a05d5d;
   margin-bottom: 20px;
 }
@@ -108,7 +108,7 @@ footer a {
   margin-bottom: 30px;
 }
 .galeria img {
-  max-width: 300px; /* LIMITAMOS el tamaño sin recortar */
+  max-width: 100px; /* LIMITAMOS el tamaño sin recortar */
   height: auto;
   border-radius: 12px;
   transition: transform 0.3s ease;
