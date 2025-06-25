@@ -44,14 +44,14 @@ section {
 
 section h2 {
   color: #b36e6e;
-  font-size: 4rem;
+  font-size: 4.5rem; /* MÁS GRANDE que los títulos de producto */
   margin-bottom: 30px;
 }
 
 section h3 {
   color: #c48e8e;
-  font-size: 2.5rem;
-  margin-top: 40px;
+  font-size: 3rem; /* MENOS que h2 */
+  margin-top: 30px;
 }
 
 p {
@@ -107,7 +107,13 @@ footer a {
   justify-content: center;
   margin-bottom: 30px;
 }
-
+.galeria img {
+  max-width: 300px; /* LIMITAMOS el tamaño sin recortar */
+  height: auto;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
 .descripcion {
   font-size: 1.6rem;
   margin-top: 15px;
