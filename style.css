@@ -75,3 +75,33 @@ footer a {
     width: 100%;
     height: auto;
 }
+#silicona .producto {
+  background: #fff9f7;
+  border: 1px solid #f0dede;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.titulo-grande {
+  font-size: 1.8rem;
+  color: #a05d5d;
+  margin-bottom: 10px;
+}
+
+.imagenes-producto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.imagenes-producto img {
+  width: calc(33% - 10px);
+  border-radius: 6px;
+}
+
+.descripcion {
+  margin-top: 15px;
+  line-height: 1.6;
+  color: #3a3a3a;
+}
