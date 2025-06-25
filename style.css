@@ -120,10 +120,6 @@ footer a {
   cursor: pointer;
 }
 
-.galeria img:hover {
-  transform: scale(2.05);
-}
-
 .descripcion {
   font-size: 1.6rem;
   margin-top: 15px;
