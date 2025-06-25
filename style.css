@@ -15,7 +15,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     color: #b07777;
 }
 
@@ -41,7 +41,7 @@ section {
 
 section h2 {
     color: #b36e6e;
-    font-size: 2rem;
+    font-size: 3.5rem;
     margin-bottom: 20px;
 }
 
@@ -84,7 +84,7 @@ footer a {
 }
 
 .titulo-grande {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   color: #a05d5d;
   margin-bottom: 10px;
 }
@@ -117,6 +117,6 @@ footer a {
 
 .descripcion {
   margin-top: 15px;
-  line-height: 1.6;
+  line-height: 2;
   color: #3a3a3a;
 }
