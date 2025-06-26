@@ -347,18 +347,20 @@ footer a {
 
 .redes-flotantes {
   position: fixed;
-  bottom: 80px; /* encima del botón de WhatsApp */
-  right: 20px;
+  bottom: 80px; /* justo encima de WhatsApp */
+  right: 25px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 10px;
   z-index: 100;
 }
 .redes-flotantes img {
-  width: 40px;
-  height: auto;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  transition: transform 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
 }
 .redes-flotantes img:hover {
   transform: scale(1.1);
@@ -368,8 +370,8 @@ footer a {
   position: fixed;
   bottom: 20px;
   left: 20px;
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   z-index: 100;
 }
 .inicio-float img {
