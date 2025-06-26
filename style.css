@@ -345,38 +345,33 @@ footer a {
   z-index: 999;
 }
 
-.whatsapp-float img,
-.social-float img {
-  width: 100%;
+.redes-flotantes {
+  position: fixed;
+  bottom: 80px; /* encima del botón de WhatsApp */
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 100;
+}
+.redes-flotantes img {
+  width: 40px;
   height: auto;
   border-radius: 50%;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+.redes-flotantes img:hover {
+  transform: scale(1.1);
 }
 
-.whatsapp-float {
-  bottom: 20px;
-}
-
-.instagram {
-  bottom: 80px;
-}
-
-.facebook {
-  bottom: 140px;
-}
-
-.tiktok {
-  bottom: 200px;
-}
 .inicio-float {
   position: fixed;
-  top: 20px;
+  bottom: 20px;
   left: 20px;
   width: 50px;
   height: 50px;
   z-index: 100;
 }
-
 .inicio-float img {
   width: 100%;
   height: auto;
