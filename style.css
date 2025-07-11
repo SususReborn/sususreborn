@@ -327,12 +327,8 @@ footer a {
 .boton-inicio-fijo img:hover {
   transform: scale(1.1);
 }
-#accesorios {
-  background-color: #fffdfd;
-}
-
-#cursos {
-  background-color: #fffdfd;
+#accesorios, #cursos {
+  background-color: #fff9f7;
 }
 
 @media screen and (max-width: 768px) {
