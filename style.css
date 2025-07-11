@@ -291,12 +291,29 @@ footer a {
 }
 #quienes-somos {
   position: relative;
+  background-color: transparent;
+  padding: 60px 20px;
+}
+
+#quienes-somos::before {
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
   background-image: url('imagenes/marcaagua.jpeg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 300px;
-  background-attachment: scroll;
-  padding: 60px 20px;
+  background-size: cover;
+  opacity: 0.15; /* Puedes ajustar la claridad cambiando este número */
+  z-index: 0;
+}
+
+#quienes-somos p, 
+#quienes-somos h2 {
+  position: relative;
+  z-index: 1;
 }
 #silicona .producto {
   background: #fff9f7;
