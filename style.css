@@ -294,9 +294,9 @@ footer a {
   background-image: url('imagenes/marcaagua.jpeg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
-  background-blend-mode: lighten;
-  opacity: 0.98;
+  background-size: 300px;
+  background-attachment: scroll;
+  padding: 60px 20px;
 }
 #silicona .producto {
   background: #fff9f7;
