@@ -340,7 +340,11 @@ footer a {
   object-fit: cover;
   cursor: pointer;
 }
-
+.galeria video {
+  width: 22%;
+  max-width: 250px;
+  border-radius: 8px;
+}
 
 .descripcion {
   font-size: 1.6rem;
