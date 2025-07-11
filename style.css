@@ -317,7 +317,7 @@ footer a {
   padding: 30px;
   border-radius: 12px;
   margin-bottom: 60px;
-  }
+}
 .titulo-grande {
   font-size: 3.5rem;
   color: #a05d5d;
@@ -327,15 +327,16 @@ footer a {
 .galeria {
   display: flex;
   flex-wrap: wrap;
-  gap: 18px;
+  gap: 10px;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .galeria img {
-  width: 35%;
+  width: 22%;
+  max-width: 250px;
   height: auto;
-  border-radius: 12px;
+  border-radius: 8px;
   object-fit: cover;
   transition: transform 0.3s ease;
   cursor: pointer;
