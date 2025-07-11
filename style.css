@@ -289,7 +289,15 @@ footer a {
   width: 100%;
   height: auto;
 }
-
+#quienes-somos {
+  position: relative;
+  background-image: url('marcaagua.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-blend-mode: lighten;
+  opacity: 0.98;
+}
 #silicona .producto {
   background: #fff9f7;
   border: 1px solid #f0dede;
