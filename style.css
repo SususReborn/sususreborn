@@ -338,9 +338,9 @@ footer a {
   height: auto;
   border-radius: 8px;
   object-fit: cover;
-  transition: transform 0.3s ease;
   cursor: pointer;
 }
+
 
 .descripcion {
   font-size: 1.6rem;
@@ -356,7 +356,7 @@ footer a {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .redes-flotantes img {
@@ -375,7 +375,7 @@ footer a {
   position: fixed;
   bottom: 20px;
   left: 20px;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .boton-inicio-fijo img {
@@ -420,4 +420,5 @@ footer a {
   height: 50px;
   right: 20px;
   z-index: 999;
+}
 }
