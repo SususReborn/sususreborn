@@ -251,6 +251,12 @@ section h20 {
   margin-top: 30px;
   text-align: center;
 }
+section h21 {
+  color: #c48e8e;
+  font-size: 3.5rem;
+  margin-top: 30px;
+  text-align: center;
+}
 p {
   font-size: 1.6rem;
   line-height: 2.2;
@@ -311,6 +317,7 @@ footer a {
   padding: 30px;
   border-radius: 12px;
   margin-bottom: 60px;
+  
 .titulo-grande {
   font-size: 3.5rem;
   color: #a05d5d;
