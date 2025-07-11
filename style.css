@@ -254,6 +254,13 @@ footer a {
   border-radius: 12px;
   margin-bottom: 60px;
 }
+#cursos .producto {
+  background: #fff9f7;
+  border: 1px solid #f0dede;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 60px;
+}
 .titulo-grande {
   font-size: 3.5rem;
   color: #a05d5d;
@@ -327,11 +334,7 @@ footer a {
 .boton-inicio-fijo img:hover {
   transform: scale(1.1);
 }
-#accesorios, #cursos {
-  background-color: #fff9f7; /* fondo rosita claro */
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
+
 @media screen and (max-width: 768px) {
   header h1 {
     font-size: 4rem;
